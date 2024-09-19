@@ -6,7 +6,7 @@ A complete memory state for this MIDI controller looks like:
 
 F0 47 7F 44 64 00 63 FV PC KC OC AR AM TD CS LT SW TT TM TM AO JX CC CC JY CC CC PA PA PA PA PA PA PA PA PB PB PB PB PB PB PB PB A1 AL AH A2 AL AH A3 AL AH A4 AL AH B1 BL BH B2 BL BH B3 BL BH B4 BL BH TR KS PS FC FR RV CH AT RL QH QL F7
 
-FV - Favorite memory position (0=RAM, 1-8=STORED)
+FV - Memory location (0=RAM, 1-8=Stored 'Favorite')
 PC - Pad channel (00-0F)
 KC - Keybed / control channel (00-0F)
 OC - Octave (00-08: 00=-4, 04=0, 08=+4)
