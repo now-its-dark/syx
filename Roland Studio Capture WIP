@@ -1,0 +1,30 @@
+Roland Studio Capture sysex (early WIP, aiming to figure out the most useful bits first).
+
+Initialization commands
+
+These msgs send when the editor loads:
+
+F0 41 10 00 00 6B 11 01 00 00 00 00 00 0B 60 14 F7
+
+Select SC device (also sent when the bottom left "Studio capture" button is pressed):
+F0 41 10 00 00 6B 12 00 00 00 00 00 00 F7
+
+Begin session? Same as the cmd sent when closed except for "01" instead of "00"
+F0 41 10 00 00 6B 12 00 0A 00 00 01 75 F7
+
+
+Terminate session? This sends when the editor is terminated:
+F0 41 10 00 00 6B 12 00 0A 00 00 00 76 F7
+
+
+Reverb
+
+Plate Pre-delay 0: F0 41 10 00 00 6B 12 00 04 05 01 00 76 F7
+Echo  pre-delay 0: F0 41 10 00 00 6B 12 00 04 01 01 00 7A F7
+
+Channel volume setting // xx=channel (00-0F)
+
+Min Volume: F0 41 10 00 00 6B 12 00 06 xx 08 00 00 00 00 00 00 72 F7
+Max volume: F0 41 10 00 00 6B 12 00 06 xx 08 07 0F 0F 0F 0F 0F 20 F7
+
+
