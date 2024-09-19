@@ -41,12 +41,30 @@ PB - Pad 5 Bank B
 PB - Pad 6 Bank B 
 PB - Pad 7 Bank B 
 PB - Pad 8 Bank B 
-A# - Knob CC (Bank A)
-AH - A# High Limit
-AL - A# Low Limit
-B# - Knob CC (Bank B)
-BH - B# High Limit
-BL - B# Low Limit
+A1 - Knob CC (Bank A)
+AH - A1 High Limit
+AL - A1 Low Limit
+A2 - Knob CC (Bank A)
+AH - A2 High Limit
+AL - A2 Low Limit
+A3 - Knob CC (Bank A)
+AH - A3 High Limit
+AL - A3 Low Limit
+A4 - Knob CC (Bank A)
+AH - A4 High Limit
+AL - A4 Low Limit
+B1 - Knob CC (Bank B)
+BH - B1 High Limit
+BL - B1 Low Limit
+B2 - Knob CC (Bank B)
+BH - B2 High Limit
+BL - B2 Low Limit
+B3 - Knob CC (Bank B)
+BH - B3 High Limit
+BL - B3 Low Limit
+B4 - Knob CC (Bank B)
+BH - B4 High Limit
+BL - B4 Low Limit
 TR - Transpose (00-18: 00=-12,0C=0, 18=+12)
 KS - Keyboard sound (00-7F)
 PS - Pad Sound (00-09)
